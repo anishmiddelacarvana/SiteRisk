@@ -1,0 +1,65 @@
+{
+  "mcpServers": {
+    "gdrive-mcp-prod": {
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://gdrive-mcp.cvnacorp.com/mcp"
+      ]
+    },
+    "jira-mcp-prod": {
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://jira-mcp.cvnacorp.com/mcp"
+      ]
+    },
+    "enzo-mcp-prod": {
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://enzo-mcp.cvnacorp.com/mcp"
+      ]
+    },
+    "slack-mcp-prod": {
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://slack-mcp.cvnacorp.com/mcp"
+      ]
+    },
+    "splunk-mcp-prod": {
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://splunk-mcp.cvnacorp.com/mcp"
+      ]
+    },
+    "snowflake-mcp-prod": {
+      "timeout": 60,
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@carvana/cvna-mcp-remote",
+        "https://snowflake-mcp.cvnacorp.com/mcp"
+      ]
+    }
+  }
+}

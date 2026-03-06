@@ -1,0 +1,12 @@
+{
+    "chat.mcp.serverSampling": {
+        "SiteRisk/.vscode/mcp.json: snowflake-mcp-prod": {
+            "allowedModels": [
+                "copilot/gpt-4.1",
+                "claude-sonnet-4-5",
+                "claude-opus-4-6",
+                "claude-sonnet-4-6"
+            ]
+        }
+    }
+}
